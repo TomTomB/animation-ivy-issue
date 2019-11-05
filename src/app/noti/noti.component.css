@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+p {
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  background: red;
+  border-bottom: 5px solid #000;
+}

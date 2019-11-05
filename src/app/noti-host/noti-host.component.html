@@ -1,0 +1,6 @@
+<button (click)="rmOne()">Remove one</button>
+<button (click)="addOne()">Add one</button>
+<app-noti
+  *ngFor="let x of testArray; trackBy: trackByFn"
+  @queryInner
+></app-noti>
